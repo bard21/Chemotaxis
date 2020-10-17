@@ -5,9 +5,8 @@ int red, green, blue;
  void setup()   
  {     
    //initialize bacteria variables here
-   background(0);
    fill(240, 248, 255);
-   circle(250.0, 250.0, 400.0);
+   ellipse(250.0, 250.0, 400.0, 400.0);
    noStroke();
    size(500, 500);
    bugs = new Bacteria[50];
@@ -20,7 +19,7 @@ int red, green, blue;
    //move and show the bacteria  
    background(240, 248, 255);
    fill(0, 0, 0);
-   circle(250.0, 250.0, 400.0);
+   ellipse(250.0, 250.0, 400.0, 400.0);
    noStroke();
    for (int i = 0; i < bugs.length; i++) {
      bugs[i].show(); 
