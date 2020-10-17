@@ -5,6 +5,7 @@ int red, green, blue;
  void setup()   
  {     
    //initialize bacteria variables here
+   background(0);
    fill(240, 248, 255);
    circle(250.0, 250.0, 400.0);
    noStroke();
